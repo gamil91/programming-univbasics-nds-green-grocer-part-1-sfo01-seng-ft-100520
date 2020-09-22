@@ -21,7 +21,7 @@ end
         e[:count] += 1 
       
       else
-        cart[i][:count] = 1
+        item_hash[:count] = 1
         consolidated_cart << cart[i]
       end
      binding.pry 
