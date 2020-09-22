@@ -24,7 +24,7 @@ end
       end
      
     end
-binding.pry 
+#binding.pry 
   consolidated_cart
 end
 
