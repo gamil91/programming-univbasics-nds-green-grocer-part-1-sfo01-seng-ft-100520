@@ -22,6 +22,7 @@ end
         cart[i][:count] = 1
         consolidated_cart << cart[i]
       end
+      
     end
   i += 1 
   end
