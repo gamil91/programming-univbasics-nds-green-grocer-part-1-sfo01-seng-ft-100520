@@ -20,7 +20,7 @@ end
       
       else
         item_hash[:count] = 1
-        consolidated_cart << cart[i]
+        consolidated_cart << item_hash
       end
      
     end
