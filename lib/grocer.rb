@@ -17,12 +17,12 @@ end
     cart.each do |item_hash|
       
       find_item_by_name_in_collection(item_hash[:name], consolidated_cart)
-      binding.pry
+      
       else
         cart[i][:count] = 1
         consolidated_cart << cart[i]
       end
-      
+      binding.pry
     end
   i += 1 
   end
