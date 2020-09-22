@@ -24,7 +24,7 @@ end
         cart[i][:count] = 1
         consolidated_cart << cart[i]
       end
-     
+     binding.pry 
     end
   i += 1 
   end
