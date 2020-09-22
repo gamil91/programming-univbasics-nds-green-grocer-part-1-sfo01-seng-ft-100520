@@ -16,9 +16,8 @@ end
   while i < cart.length do
     cart.each do |item_hash|
       
-      if find_item_by_name_in_collection(item_hash[:item], consolidated_cart)
+      if exists = find_item_by_name_in_collection(item_hash[:item], consolidated_cart)
         
-        var exists = find_item_by_name_in_collection(item_hash[:item], consolidated_cart)
         exists[:count] += 1 
       
       else
