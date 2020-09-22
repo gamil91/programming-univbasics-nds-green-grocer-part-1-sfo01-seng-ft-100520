@@ -27,7 +27,7 @@ end
     end
   i += 1 
   end
- binding.pry
+
   consolidated_cart
 end
 
